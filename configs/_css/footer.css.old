@@ -1,0 +1,31 @@
+/* substituindo o #footer do estilo.css */
+
+*  {
+    margin:0;
+    padding:0;
+}
+
+html, body {height:100%;}
+
+div#geral {
+    min-height:100%;
+    position:relative;
+    width:800px;
+}
+
+div#footer_central {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+div#footer_central p {
+    font-family: sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+
+.content {overflow:hidden;}
+.aside {width:200px;}
+.fleft {float:left;}
+.fright {float:right;}
